@@ -23,7 +23,27 @@ public class Body extends Airplane {
     private PotableWaterTank potableWaterTank;
     private WasteWaterTank wasteWaterTank;
     private FireExtinguisher fireExtinguisher;
-    private
+    private AntiCollisionLight antiCollisionLight;
+    private CargoCompartmentLight cargoCompartmentLight;
+    private LogoLight logoLight;
+    private TailNavigationLight tailNavigationLight;
+    private TaxiLight taxiLight;
+    private TCASLight tcasLight;
+    private Elevator elevator;
+    private Rudder rudder;
+    private OxygenSensor oxygenSensor;
+    private PilotTube pilotTube;
+    private RadarAltimeter radarAltimeter;
+    private TCAS tcas;
+    private GPS gps;
+    private Radar radar;
+    private SatCom satCom;
+    private VHF vhf;
+    private CargoSystem cargoSystem;
+    private StowageNumberFive stowageNumberFive;
+    private CostOptimizer costOptimizer;
+    private RouteManagement routeManagement;
+    private SeatManagement seatManagement;
 
     public void startup()
     {
