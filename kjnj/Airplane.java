@@ -1,5 +1,8 @@
 public abstract class Airplane {
 
+    protected HydraulicPump hydraulicPump;
+    protected DelcingSystem delcingSystem;
+
     //abstract Methods
 
     public abstract void startup();
