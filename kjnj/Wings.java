@@ -24,6 +24,6 @@ public class Wings extends Airplane{
     }
     public void leftTurn()
     {
-
+//
     }
 }
